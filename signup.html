@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/action" class="form">
+
+        <h1>Signup Form/Register Form</h1>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required /><br>
+
+        <label for="age">Age:</label>
+        <input type="number" name="Age" required/><br>
+
+        <label for="Email">Email-Id:</label>
+        <input type="email" name="Email" required/><br>
+
+        <label for="bdate"> Birth_date:</label>
+        <input type="date" name="bdate" required /><br>
+        
+        <label for="color">Your_favorite_color:</label>
+        <input type="color" name="color" required /><br>
+
+        <label for="edu">Eduction: </label>
+        <input type="text" name="edu" required /><br>
+
+        <label for="Time">Exam_time: </label>
+        <input type="Time" name="time" required /><br>
+
+        <label for="address">Address: </label>
+        <textarea name="text" name="address" id="add" rows="3" cols="20" required></textarea><br>
+
+        <label for="Gender"> Gender:</label>
+        <input type="radio" name="Gender" values="ml"/>Male
+        <input type="radio" name="Gender" value="fml"/>Female <br>
+
+        <label for="Skills">Skills:</label>
+        <input type="checkbox" name="Skills"/>HTML
+        <input type="checkbox" name="Skills"/>CSS
+        <input type="checkbox" name="Skills"/>Javascript
+        <input type="checkbox" name="Skills"/>React   <br>
+        
+        <label for="city">City: </label> 
+        <select name="City" id="">
+            <option value="rjkt">Rajkot</option>
+            <option value="jmngr">Jamnager</option>
+            <option value="ahmdbd">Ahemdabad</option>
+            <option value="srt">Surat</option>
+            <option value="jngd">Junagadh</option>
+        </select>    <br> <br>
+        <input type="submit" value="Submit" />
+        <input type="reset"/>
+        <a href="login.html">Login Page</a><br>
+        <a href="signup.html">Signup</a>
+    </form>   
+</body>
+</html>
