@@ -1,0 +1,77 @@
+body{
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+}
+header{
+    color: black;
+    background-color: orange;
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    font-size: 50px;
+    margin: 0;
+}
+
+.content
+{
+    max-width: 60%;
+    padding: 20px;
+    margin: 0 auto;
+}
+.biography
+{
+    background-color: rgb(241, 224, 191);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+.biography h2{
+    color: black;
+    background-color: orange;
+    margin-bottom: 10px;
+    font-size: 28px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+p{
+    font-size: 22px;
+    color: black;
+}
+.achievements h2
+{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: underline;
+    font-size: 28px;
+    color: black;
+    background-color: orange;
+
+}
+.achievements{
+    background-color: rgb(241, 224, 191);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius:10px ;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+.achievements ul{
+    padding: 10px;
+    list-style-type: disc;
+}
+.achievements li{
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+footer{
+    background-color: orange;
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
