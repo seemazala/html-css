@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" id="form">
+        <div class="form_control">
+            <h1>Servey form</h1>
+            <label for="name" id="username">Name:</label>
+            <input type="text" id="name" placeholder="enter your name">
+            </div>
+            
+            <div class="form_control">
+            <label for="email" id="uemail">Email:</label>
+            <input type="email" id="email" placeholder="enter your email">
+            </div>
+            
+            <div class="form_control">
+            <label for="age" id="uage">Age:</label>
+            <input type="number" id="age" placeholder="enter your age">
+            </div>
+            
+            <div class="form_control">
+            <label for="role" id="label-role">Which Option best describes you?</label>
+            <select name="role" id="role">
+                <option value="student">student</option>
+                <option value="intern">intern</option>
+                <option value="professional">professional</option>
+                <option value="others">others</option>
+            </select>
+            </div>
+            
+            <div class="form_control">
+            <label for="">would you recommanded greekforgreeks to a friends?</label><br>
+            <label for="recommand-1">
+                <input type="radio" id="recommand-1" name="recommand">yes
+            </label><br>
+
+            <label for="recommand-2">
+                <input type="radio" id="recommand-2" name="recommand">no
+            </label><br>
+            
+            <label for="recommand-3">
+                <input type="radio" id="recommand-3" name="recommand">maybe
+            </label><br>
+            </div>
+            <div class="form_control">
+                <label>Languages and Framework known <small>(check all that apply)</small></label>
+                <label for="inp1">HTML
+                <input type="checkbox" id="inp1"></label><br>
+
+                <label for="inp2">CSS
+                <input type="checkbox" id="inp2"></label><br>
+
+                <label for="inp3">Javascript
+                <input type="checkbox" id="inp3"></label><br>
+
+                <label for="inp4">Java
+                <input type="checkbox" id="inp4"></label><br>
+
+                <label for="inp5">Nodejs
+                <input type="checkbox" id="inp5"></label><br>
+
+                <label for="inp6">React
+                <input type="checkbox" id="inp6"></label><br>
+
+                <label for="inp7">C++
+                <input type="checkbox" id="inp7"></label><br>
+
+                <label for="inp8">C#
+                <input type="checkbox" id="inp8"></label><br>
+            </div>
+
+            <div class="form_control">
+                <label for="comment">Feedback</label>
+                <textarea name="comment" id="comment" placeholder="enter your comment here."></textarea>
+            </div>
+
+            <button type="submit" value="submit">submit</button>
+    </form>
+</body>
+</html>
